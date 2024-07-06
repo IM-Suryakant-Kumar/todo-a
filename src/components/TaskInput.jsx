@@ -32,6 +32,7 @@ export const TaskInput = () => {
 						textTransform: "capitalize",
 						fontFamily: "var(--font-cinzel)",
 						fontWeight: 600,
+						borderRadius: "0.4em",
 					}}
 				>
 					Add Task

@@ -15,7 +15,8 @@
 - Hooks to use lifecycle method in functional component.
 - Material-UI for fast and already designed components.
 - redux-toolkit for state management.
-- Redux-persist to save tasks to local storage.
+- redux-persist to save tasks to local storage.
+- prop-types for type validation
 
 ## Run it locally
 
