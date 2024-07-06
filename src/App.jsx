@@ -1,12 +1,12 @@
 import { Stack } from '@mui/material'
-import { Header } from './components'
+import { Header, TaskInput } from './components'
 
 function App() {
 
   return (
     <Stack component="main" sx={{  }}>
       <Header  />
-      {/* TaskInput */}
+      <TaskInput />
       {/* TaskList */}
     </Stack>
   )
