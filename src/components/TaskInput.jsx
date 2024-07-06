@@ -7,6 +7,7 @@ export const TaskInput = () => {
 			sx={{ mx: { xs: "0.25em", sm: "0.5em", md: "1em" }, my: { xs: "1em", sm: "2em" } }}
 		>
 			<Stack component="form" sx={{ maxWidth: "20rem", mx: "auto", gap: "0.5em" }}>
+				{/* input box */}
 				<Box
 					component="input"
 					required
@@ -19,6 +20,7 @@ export const TaskInput = () => {
 						fontSize: "large",
 					}}
 				/>
+				{/* submit button */}
 				<Button
 					variant="contained"
 					size="small"
